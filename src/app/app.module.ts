@@ -37,6 +37,8 @@ import { ContactComponent } from './contact/contact.component';
 import { EducationComponent } from './education/education.component';
 import { TechnicalSkillsComponent } from './technical-skills/technical-skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import {MatTabsModule} from "@angular/material/tabs";
 
 @NgModule({
   declarations: [
@@ -54,7 +56,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     ContactComponent,
     EducationComponent,
     TechnicalSkillsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -77,7 +80,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     CdkFixedSizeVirtualScroll,
     CdkVirtualForOf,
     CdkVirtualScrollableElement,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatTabsModule
   ],
   providers: [
     provideAnimationsAsync()

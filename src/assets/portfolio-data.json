@@ -1,0 +1,204 @@
+{
+    "profile": {
+      "name": "Kachout Mohamed",
+      "title": "Ingénieur d'étude et développement JAVA/JEE",
+      "contact": {
+        "address": "Rue Amande, Cité Essalama, Aouina 2045 Tunis",
+        "phone": "(216)52-400-850",
+        "email": "mohamed.kachout1@gmail.com",
+        "linkedin": "www.linkedin.com/in/mohamed-kachout",
+        "github": "https://github.com/medkach"
+      }
+    },
+    "skills": [
+      "Solide compétence en technologie back end JEE (SPRING BOOT 3, Java 21)",
+      "Bonne maîtrise des technologies front end (Angular, Themeleaf, JSF, STRUTS)",
+      "Bonne maîtrise des bases des données relationnelle Oracle (SQL, PL/SQL)",
+      "Bonne maîtrise des webservices (SOAP, REST, GRAPHQL, GRPC) et le middleware orienté message KAFKA",
+      "Maîtrise des concepts fondamentaux des protocoles de sécurité standard (OAuth2 et OpenID Connect)",
+      "Bonne maîtrise des outils de containerisation Docker et Kubernetes",
+      "Bonne connaissance sur la communication avec le LLM à travers Spring AI"
+    ],
+    "experiences": [
+      {
+        "period": "De janvier 2024 jusqu'aujourd'hui",
+        "title": "AUTOMATISATION SAISIE FORMULAIRE-RAG",
+        "description": "Conception et développement d'un module visant à automatiser la saisie en masse des données de prise en charge en exploitant l'IA générative basée sur les grands modèles de langage (LLM : Large Langage Model) avec l'approche RAG (Retrieval Augmentation Generation) pour extraire des données non structurées à partir de fichiers PDF ou TXT, puis les transformer automatiquement en format JSON structuré et les insérer dans une base de données.",
+        "environment": "IntelliJ, GitLab, Spring Boot, Maven, Java 21, Postgres Vector Store, ThymeLeaf, Spring AI (OpenAi, Transformers, PdfDocumentReader)"
+      },
+      {
+        "period": "De janvier 2022 jusqu'aujourd'hui",
+        "title": "Digital-Banking-Event Driven Architecture (EDA)",
+        "description": "La mise en place d'un noyau d'application évolutif, performant et faciles à maintenir, basé sur une architecture pilotée par les évènements, avec le framework AXON.",
+        "highlights": [
+          "Séparation des flux d'écriture et de lecture à travers la subdivision de chaque microservice en sous-microservices, en appliquant les patterns stratégiques CQRS (Command Query Responsibility Separation) et en suivant l'approche de conception DDD (Domain Driven Design).",
+          "Enregistrement séquentiel de tous les événements et leur état survenus au cours de la durée de vie du système en utilisant le design pattern Event-Sourcing pour permettre la reconstruction de l'état de l'application à tout moment.",
+          "Gestion des transactions distribuées pour différentes logiques métier en utilisant le pattern SAGA."
+        ],
+        "environment": "Intellij, GitLab, Spring Boot, Maven, AXON Quickstart 4.5.10, Java 17, Kotlin, JPA/Jibernate, Spring Data REST, Spring Cloud, Spring Web, Lombok, Springdoc OpenAPI"
+      },
+      {
+        "period": "De juillet 2019 jusqu'aujourd'hui",
+        "title": "MISE A NIVEAU Architecture (Monolithique vers MICRO-SERVICE)",
+        "description": "La mise à niveau des applications internes en migrantes de l'architecture monolithique vers une architecture micro-services grâce à l'utilisation des services techniques fournis par Spring Cloud (Gateway, Config, Discovery, Vault), et leur intégration avec les micro-services fonctionnels au sein d'une même application, le tout conteneurisé via Docker.",
+        "highlights": [
+          "Découpage des micro-services fonctionnels selon des périmètres définissant les responsabilités spécifiques de chaque domaine (Bounded Context), en suivant l'approche de conception DDD (Domain Driven Design).",
+          "Implémentation d'une communication synchrone REST via l'approche déclarative avec OpenFeign et une communication asynchrone via KAFKA pour faciliter la communication entre les micro-services.",
+          "Centralisation de l'infrastructure de sécurité des applications avec la gestion des identités, l'authentification et l'autorisation basées sur les protocoles standards OAuth2 et OpenID Connect via Spring Security et Keycloak.",
+          "Implémentation le modèle de chorégraphie de SAGA à travers les bus d'évènement Kafka pour préserver la cohérence d'intégrité des données dans les transactions distribuées.",
+          "Passage d'un rendu générer coter serveur vers un rendu générer coter client avec l'implémentation de design pattern MVVM (Model-View-ViewModel) via le Framework JavaScript Angular.",
+          "Développement des tests unitaires avec JUnit 5 et Mockito et le test d'intégration via TestContainer."
+        ],
+        "environment": "Intellij, GitLab, Postman, Spring Boot, Maven, Java 17, Angular, Docker, Kafka, Keycloak, Jpa/Hibernate, Flyway, OpenFeign, Spring Cloud, Spring Web, ObjectMapper, lombok, springdoc-open-api, spring-cloud-starter-netflix-eureka-client, SpringTest, JUnit5, Mockito, Assertj, JsonPath, JsonAssert, TestContainer"
+      },
+      {
+        "period": "De janvier 2018 jusqu'au mai 2018",
+        "title": "Notification-Email-SMS-Engagement",
+        "description": "Conception et développement d'un batch qui permet d'envoyer des lettres de mise en demeure par email et SMS vers les clients de la banque qui ont des engagements bancaires.",
+        "environment": "Intellij, GitLab, Postman, Spring Boot, Maven, Java 8, Docker, Jpa/Hibernate, Spring Web, lombok, springdoc-open-api"
+      },
+      {
+        "period": "De janvier 2017 jusqu'au décembre 2017",
+        "title": "Système Automatique Engagement Bancaire Agricole",
+        "description": "La mise en place d'une architecture basée sur un serveur d'application qui se compose d'un conteneur web Tomcat et un framework Spring qui assure l'inversion de contrôle et l'injection de dépendance coté backend et un frontend basé sur un rendu HTML généré coté serveur via le moteur de template Thymeleaf et l'implémentation d'un service technique personnalisé de sécurité avec une authentification StateFull basé sur les sessions et les cookies.",
+        "environment": "Spring Boot, Maven, GitLab, Java 8, Maven, Lombok, Thymeleaf, JPA/Hibernate, OracleSqlDevelopper"
+      },
+      {
+        "period": "De mai 2016 jusqu'au décembre 2016",
+        "title": "E-Banking",
+        "description": "Conception et déploiement d'un système de E-BANKING offrant aux entreprises des services à distance pour une gestion optimale de la trésorerie via des échanges sécurisés avec la banque. Développement du back-end en utilisant des services web SOAP avec Apache CXF et JAX-WS.",
+        "environment": "Maven, SOAPUI, Apache CXF, Spring, Hibernate, UML, Apache Tomcat, Oracle SQL Developer, Eclipse, JDK 1.8, iReport/JasperReport"
+      },
+      {
+        "period": "De septembre 2016 jusqu'au avril 2016",
+        "title": "Moulinette-Abonnement-Engagement",
+        "description": "Conception et mise en œuvre d'un batch permettant de calculer dynamiquement les intérêts courus non échus pour tous types de crédits bancaires, et de générer ces données dans un fichier en intégrant les détails de l'engagement.",
+        "environment": "PL/SQL Oracle"
+      },
+      {
+        "period": "D'Octobre 2015 à out 2016",
+        "title": "BAP Agricole",
+        "description": "La mise en place d'une application de gestion et de règlement des Bulletins d'Agréage et de Paiement (BAP) établi par les organismes stockeurs de la banque basé sur un outil de contrôle qui génère des rapports de consultation (Reporting).",
+        "highlights": [
+          "Externalisation totale de la configuration WebApps basée sur Spring",
+          "Faire la conception avec UML",
+          "Développement des tous les IHM de l'application et leur contrôle en se basant sur le Framework Jsf et Richfaces",
+          "Développement des services métiers transactionnelles",
+          "Test et validation des corrections",
+          "Participation à la migration des données et la formation des utilisateurs"
+        ],
+        "environment": "UML (Rational Rose), JSF1.2, RICHFACES3, Spring2, Hibernate 3, JDK 1.8, Apache Tomcat 7, Oracle SqlDevelopper, JQuery, XHTML, JavaScript, HTML/CSS, Eclipse, Ireport 4.5.1/JasperReport"
+      },
+      {
+        "period": "D'Avril 2015 septembre 2015",
+        "title": "Moulinette Réajustement TMM",
+        "description": "Développement des moulinettes (batch) qui implémente les logiques métier de tous les agences de la banque qui seront exécuté périodiquement.",
+        "environment": "JDK 1.6, Spring2, Hibernate 3, Apache Tomcat 6, SqlDevelopper, JDevelopper 10g, PL/SQL"
+      },
+      {
+        "period": "De may 2014 à mars 2015",
+        "title": "SAEB ESC",
+        "description": "La mise en place d'une application de gestion des effets escompté commercialement pour le système automatique d'engagement bancaire (SAEB), et génération des rapports de suivi (Reporting).",
+        "highlights": [
+          "Faire la conception avec UML",
+          "Développement les interfaces de l'application et leur contrôle en se basant sur le Framework Struts et JavaScript",
+          "Développement des services métiers transactionnelles",
+          "Participation à la formation des utilisateurs"
+        ],
+        "environment": "UML (Rational Rose), Struts1.2, Spring2, Hibernate3.1.6, Apache Tomcat 6, Oracle, JDevelopper 10g, Ireport 4.5.1/JasperReport"
+      },
+      {
+        "period": "De Mars 2013 à avril 2014",
+        "title": "SAEB INV",
+        "description": "Conception et développement d'un module de remboursement pour le crédit d'investissement pour le système automatique d'engagement bancaire (SAEB), et génération des rapports de contrôle (Reporting).",
+        "highlights": [
+          "Faire la conception avec UML et du reverse engineering avec le plugin eclipse \"Hibernate Tools\"",
+          "Développement les interfaces de l'application et leur contrôle en se basant sur le Framework Struts",
+          "Développement des services métiers transactionnelles"
+        ],
+        "environment": "UML (Rational Rose), Struts 1.2, Spring2, Hibernate 3.1.6, ApacheTomcat 6, Oracle SqlDevelopper, JavaScript, HTML/CSS, JDevelopper 10g, Ireport 4.5.1/JasperReport"
+      },
+      {
+        "period": "De Mars 2012 à février 2013",
+        "title": "Gestion Impôt",
+        "description": "Conception et développement d'un système de gestion des impôts (Déclarations, paiement,) pour l'état Mauritanien DGI (Direction Générale des Impôts), en utilisant la technologie Oracle ADF et réalisation des rapports de consultation (Reporting).",
+        "highlights": [
+          "Modélisation et conception avec UML et BPMN",
+          "Aide à la rédaction d'un manuel développeur",
+          "Développement des tous les IHM de l'application en se basant sur le Framework JSF",
+          "Développement des services métiers"
+        ],
+        "environment": "Oracle ADF FacesJSF 2.0, Sprig, Hibernate, BPMN, UML, WebLogic 10.3, Oracle 10g, JDevelopper, RedMine, Ireport 4.5.1/JasperReport"
+      },
+      {
+        "period": "De juin 2011 à février 2012",
+        "title": "Portail Web CNSS",
+        "description": "Réalisation et la mise en place du portail web pour la Caisse Nationale de Sécurité Sociale (CNSS) conforme aux standards du marché, accessible par tous les intervenants quel que soit leur préférence et leur paramétrage personnel, en adoptant les nouvelles technologies de l'information et de la communication.",
+        "highlights": [
+          "Mise en place d'architectures de développement",
+          "Initialisation et configuration du portail Liferay 6.0.5",
+          "Développement des tous les IHM de l'application en se basant sur le Framework Struts",
+          "Développement des services métiers"
+        ],
+        "environment": "UML, Spring, Hibernate, Struts, AJAX(DWR), MySql, tomcat 6, Eclipse, Maven, Liferay 6"
+      },
+      {
+        "period": "De janvier 2011 à juin 2011",
+        "title": "Banque Item",
+        "description": "Développement d'une Application de génération (Reporting) des épreuves et standardisation des systèmes d'examens et l'élaboration d'une banque d'items informatisée pour le compte du Centre National d'Education Environnementale (CNEE) de Maroc.",
+        "highlights": [
+          "Développement des tous les IHM de l'application en se basant sur le Framework Struts",
+          "Développement des services métiers Test et validation des corrections"
+        ],
+        "environment": "UML, Spring, Hibernate, Struts, JavaScript, jsp, JSTL, AJAX(DWR), MySql, tomcat 5, Eclipse, Ant, Appfuse"
+      },
+      {
+        "period": "D'octobre 2010 à janvier 2011",
+        "title": "Questionnaire Dynamique",
+        "description": "Conception et développement d'une application qui permet la création et la diffusion d'un questionnaire (Formulaire) en ligne et l'analyse statistique d'enquête illustré par des graphiques on se basant sur quelque indicateur.",
+        "highlights": [
+          "Développement des tous les IHM de l'application en se basant sur le Framework Struts",
+          "Développement des services métiers",
+          "Correction des anomalies"],
+        "environment":" UML, Spring,Hibernate,JFreeChart, Struts,JavaScript,MySql, tomcat 5, Eclipse, Appfuse"
+      },
+      {
+        "period": "D’octobre 2010 à février 2012",
+        "title": "Portail Web Edupartage",
+        "description": "Développement et mise à jour des portlets pour le portail web éducatif Edupartage",
+        "environment":" Liferay 5.2.3, Sgbd Postgres, JDK 1.6, JSP, XML, HTML, Ant,Struts,JSTL,Spring, Hibernate,Tomcat."
+      }
+    ],
+    "education": [
+      {
+        "year": "JUIN 2010",
+        "degree": "DIPLOME D'INGENIEUR EN INFORMATIQUE, SPECIALITE SYSTEME D'INFORMATION DISTRIBUE",
+        "institution": "ECOLE NATIONALE D'INGENIEURS DE SFAX"
+      },
+      {
+        "year": "MAI 2008",
+        "degree": "MAITRISE INFORMATIQUE",
+        "institution": "FACULTE DES SCIENCES DE GAFSA"
+      },
+      {
+        "year": "JUIN 2004",
+        "degree": "BACCALAUREAT EN MATHEMATIQUES",
+        "institution": "LYCEE 9 AVRIL MOULARES"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Arabe",
+        "level": "Langue maternelle"
+      },
+      {
+        "language": "Français",
+        "level": "Ecrit, parlé"
+      },
+      {
+        "language": "Anglais",
+        "level": "Compréhension, technique"
+      }
+    ],
+    "interests": ["Football", "cyclisme", "voyage"]
+  }

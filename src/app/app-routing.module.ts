@@ -14,6 +14,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { EducationComponent } from './education/education.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { TechnicalSkillsComponent } from './technical-skills/technical-skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 const routes: Routes = [
   {path:"",component:AdminTemplateComponent},
   {path:"admin",component:AdminTemplateComponent,
@@ -30,7 +31,9 @@ const routes: Routes = [
   {path:"projects",component:ProjectsComponent},
   {path:"education",component:EducationComponent},
   {path:"workExperience",component:WorkExperienceComponent},
-  {path:"technicalSkills",component:TechnicalSkillsComponent}
+  {path:"technicalSkills",component:TechnicalSkillsComponent},
+  { path: "portfolio", component: PortfolioComponent },
+  { path: "", redirectTo: "portfolio", pathMatch: "full" },
   ]}
 ];
 

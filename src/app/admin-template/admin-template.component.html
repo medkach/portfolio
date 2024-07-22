@@ -21,6 +21,12 @@
   <mat-drawer-container>
     <mat-drawer #myDrawer opened="true" mode="side" position="start">
       <mat-list>
+        <button mat-button routerLink="/admin/portfolio">
+          <mat-icon>perm_identity</mat-icon>
+          Portfolio
+        </button>
+      </mat-list>
+      <mat-list>
         <button mat-button routerLink="/admin/dashboard">
           <mat-icon>dashboard</mat-icon>Dashboard
         </button>
@@ -58,6 +64,7 @@
           Education
         </button>
       </mat-list>
+     
     </mat-drawer>
     <mat-drawer-content >
       <div style="min-height: 600px">
