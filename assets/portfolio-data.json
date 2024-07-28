@@ -24,7 +24,16 @@
         "period": "De janvier 2024 jusqu'aujourd'hui",
         "title": "AUTOMATISATION SAISIE FORMULAIRE-RAG",
         "description": "Conception et développement d'un module visant à automatiser la saisie en masse des données de prise en charge en exploitant l'IA générative basée sur les grands modèles de langage (LLM : Large Langage Model) avec l'approche RAG (Retrieval Augmentation Generation) pour extraire des données non structurées à partir de fichiers PDF ou TXT, puis les transformer automatiquement en format JSON structuré et les insérer dans une base de données.",
-        "environment": "IntelliJ, GitLab, Spring Boot, Maven, Java 21, Postgres Vector Store, ThymeLeaf, Spring AI (OpenAi, Transformers, PdfDocumentReader)"
+        "imageUrl": "/assets/images/ai-automation.svg",
+        "moreInfoLink": "https://example.com/ai-automation-project",
+        "environment": [
+          { "name": "IntelliJ", "icon": "code" },
+          { "name": "GitLab", "icon": "merge" },
+          { "name": "Spring Boot", "icon": "spring" },
+          { "name": "Java 21", "icon": "coffee" },
+          { "name": "Postgres", "icon": "database" },
+          { "name": "Spring AI", "icon": "brain" }
+        ]
       },
       {
         "period": "De janvier 2022 jusqu'aujourd'hui",
@@ -35,7 +44,16 @@
           "Enregistrement séquentiel de tous les événements et leur état survenus au cours de la durée de vie du système en utilisant le design pattern Event-Sourcing pour permettre la reconstruction de l'état de l'application à tout moment.",
           "Gestion des transactions distribuées pour différentes logiques métier en utilisant le pattern SAGA."
         ],
-        "environment": "Intellij, GitLab, Spring Boot, Maven, AXON Quickstart 4.5.10, Java 17, Kotlin, JPA/Jibernate, Spring Data REST, Spring Cloud, Spring Web, Lombok, Springdoc OpenAPI"
+        "imageUrl": "/assets/images/event-driven-architecture.svg",
+      "moreInfoLink": "https://example.com/eda-banking-project",
+      "environment": [
+        { "name": "Intellij", "icon": "code" },
+        { "name": "GitLab", "icon": "merge" },
+        { "name": "Spring Boot", "icon": "spring" },
+        { "name": "Java 17", "icon": "coffee" },
+        { "name": "Kotlin", "icon": "kotlin" },
+        { "name": "AXON", "icon": "axon" }
+      ]
       },
       {
         "period": "De juillet 2019 jusqu'aujourd'hui",
